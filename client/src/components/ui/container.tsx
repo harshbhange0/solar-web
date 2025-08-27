@@ -12,7 +12,7 @@ export default function Container({ children, className }: ContainerProps) {
   return (
     <div
       className={cn(
-        "mx-0 flex h-full w-full items-center justify-center bg-stone-50 shadow-sm sm:mx-auto",
+        "flex h-full w-full items-center justify-center bg-stone-50 shadow-sm sm:mx-auto",
         className,
       )}
     >
