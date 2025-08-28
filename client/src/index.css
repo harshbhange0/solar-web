@@ -75,8 +75,8 @@
 }
 
 .dark {
-  --background: oklch(0.13 0.028 261.692);
-  --foreground: oklch(0.985 0.002 247.839);
+  --background: oklch(0% 0 0);
+  --foreground: oklch(100% 0.00011 271.152);
   --card: oklch(0.21 0.034 264.665);
   --card-foreground: oklch(0.985 0.002 247.839);
   --popover: oklch(0.21 0.034 264.665);
@@ -115,11 +115,4 @@
   body {
     @apply bg-background text-foreground;
   }
-}
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
-
-@custom-variant dark (&:is(.dark *));
-* {
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
 }
